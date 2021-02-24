@@ -15,6 +15,14 @@ namespace App8
         public Page3()
         {
             InitializeComponent();
+            Lista.ItemsSource = new List<igraci.Class1>
+            {
+                new igraci.Class1 {ime="Marc Gasol", slika="pic5.jpg"},
+                new igraci.Class1 {ime="Kyle Kuzma", slika="pic6.jpeg"},
+                new igraci.Class1 {ime="Wesley Matthews", slika="pic7.jpg"},
+                new igraci.Class1 {ime="K. Caldwell-Pope", slika="pic8.jpg"},
+                new igraci.Class1 {ime="LeBron James", slika="pic9.jpg"}
+            };
         }
     }
 }

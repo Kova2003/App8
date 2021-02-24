@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App8.Page2"
-             Title="Page2" IconImageSource="pic2.png" BackgroundColor="White">
+             Title="Klub" IconImageSource="pic2.png" BackgroundColor="Yellow">
     <ContentPage.Content>
         <AbsoluteLayout>
             <Button
                 Text="Prikaži tekst"
+                TextColor="Black"                
                 AbsoluteLayout.LayoutBounds="0.5,0.9,100,100"
                 AbsoluteLayout.LayoutFlags="XProportional,YProportional"
                 Clicked="Button_Clicked"

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App8.Page1"
-             Title="Page1" IconImageSource="pic1.png" BackgroundColor="White">
+             Title="Homepage" IconImageSource="pic1.png" BackgroundColor="Yellow">
     <ContentPage.Content>
         <AbsoluteLayout>
             <Label

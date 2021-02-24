@@ -2,19 +2,72 @@
 <CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App8.Page3"
-              Title="Page3" IconImageSource="pic3.png" BackgroundColor="White">
+              Title="Igrači" IconImageSource="pic3.png" BackgroundColor="Yellow">
     <ContentPage>
-    <ContentPage.Content>
+        <ContentPage.Content>
             <AbsoluteLayout>
                 <ListView
                     x:Name="Lista"
-                    ></ListView> 
+                    >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ImageCell Text="{Binding ime}" ImageSource="{Binding slika}"
+                                   ></ImageCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Label
+                    Text="Swipe⟶"
+                    TextColor="Black"
+                    FontSize="Large"
+                    AbsoluteLayout.LayoutBounds="0.5,0.9,150,150"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
             </AbsoluteLayout>
-    </ContentPage.Content>
+        </ContentPage.Content>
     </ContentPage>
     <ContentPage>
         <ContentPage.Content>
             <AbsoluteLayout>
+                <Label
+                    Text="Marc Gasol"
+                    TextColor="Black"
+                    FontSize="Medium"
+                    AbsoluteLayout.LayoutBounds="0.1,0.1,100,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="Visina: 2.11m     Težina: 116kg     Država: Španjolska   Godine: 36      Draft: 2007 R2 Pick 48      Karijera: 12 godina"
+                    TextColor="Black"                   
+                    AbsoluteLayout.LayoutBounds="0.1,0.2,400,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="Kyle Kuzma"
+                    TextColor="Black"
+                    FontSize="Medium"
+                    AbsoluteLayout.LayoutBounds="0.1,0.4,100,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="Visina: 2.08m     Težina: 100kg     Država: SAD   Godine: 25       Draft: 2017 R1 Pick 27      Karijera: 3 godine"
+                    TextColor="Black"                   
+                    AbsoluteLayout.LayoutBounds="0.1,0.5,400,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="Wesley Matthews"
+                    TextColor="Black"
+                    FontSize="Medium"
+                    AbsoluteLayout.LayoutBounds="0.1,0.7,200,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="Visina: 1.93m     Težina: 100kg     Država: SAD   Godine: 34       Draft: Undrafted      Karijera: 11 godina"
+                    TextColor="Black"                   
+                    AbsoluteLayout.LayoutBounds="0.1,0.8,400,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
                 
             </AbsoluteLayout>
         </ContentPage.Content>
@@ -22,7 +75,32 @@
     <ContentPage>
         <ContentPage.Content>
             <AbsoluteLayout>
-                
+                <Label
+                    Text="Kentavious Caldwell-Pope"
+                    TextColor="Black"
+                    FontSize="Medium"
+                    AbsoluteLayout.LayoutBounds="0.1,0.3,300,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="Visina: 1.96m     Težina: 93kg     Država: SAD   Godine: 28       Draft: 2013 R1 Pick 8      Karijera: 7 godina"
+                    TextColor="Black"                   
+                    AbsoluteLayout.LayoutBounds="0.1,0.4,400,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="LeBron James"
+                    TextColor="Black"
+                    FontSize="Medium"
+                    AbsoluteLayout.LayoutBounds="0.1,0.6,300,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
+                <Label
+                    Text="Visina: 2.06m     Težina: 113kg     Država: SAD   Godine: 36      Draft: 2003 R1 Pick 1      Karijera: 17 godina"
+                    TextColor="Black"                   
+                    AbsoluteLayout.LayoutBounds="0.1,0.7,400,100"
+                    AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                    ></Label>
             </AbsoluteLayout>
         </ContentPage.Content>
     </ContentPage>

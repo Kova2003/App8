@@ -3,7 +3,7 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App8"
             x:Class="App8.MainPage" BackgroundColor="White"
-            BarBackgroundColor="White">
+            BarBackgroundColor="Purple">
     
     <local:Page1></local:Page1>
     <local:Page2></local:Page2>

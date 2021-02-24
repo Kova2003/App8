@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.Page1"
+             Title="Page1" IconImageSource="pic1.png" BackgroundColor="White">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Label
+                Text="Los Angeles Lakers"
+                FontSize="Large"
+                TextColor="Black"               
+                AbsoluteLayout.LayoutBounds="0.6,0.35,250,150"
+                AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                ></Label>
+            <Image
+                x:Name="slika"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,200,200"
+                AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+                ></Image>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
